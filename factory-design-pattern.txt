@@ -1,0 +1,11 @@
+public interface BeanFactory {
+
+    getBean(Class<T> requiredType);
+    getBean(Class<T> requiredType, Object... args);
+    getBean(String name);
+
+    // ...
+}
+
+Using the getBean factory method, we can create configured beans
+
